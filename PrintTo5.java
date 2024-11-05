@@ -5,7 +5,7 @@ public class PrintTo5 {
 		// Declares an int variable, and sets it to 1
         int i = 0;
         int j = 0;
-        System.out.println(j);
+        
         // Complete the program's code here:
     }
  }
