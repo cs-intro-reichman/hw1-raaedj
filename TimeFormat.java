@@ -17,9 +17,17 @@ public class TimeFormat {
 		}
 	  }else{
 		if(minutes >= 10){
-		  System.out.print(hours + ":" + minutes + " AM");
+			if(hours == 12){
+				System.out.print(hours + ":" + minutes + " PM");
+			}else{
+				System.out.print(hours + ":" + minutes + " AM");
+			}
 		  }else{
-		  System.out.print(hours + ":0" + minutes + " AM");
+			if(hours == 12){
+				System.out.print(hours + ":0" + minutes + " PM");
+			}else{
+				System.out.print(hours + ":0" + minutes + " AM");
+			}
 		  }
 	  }
   
